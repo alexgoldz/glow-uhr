@@ -1,0 +1,29 @@
+<svg>
+  <use href="#app-gradient-background" class="app-gradient-background application-fill" apply-style="at-use">
+    <svg>
+      <text x="75%" y="30"text-anchor="middle" class="marker">I</text>
+      <text x="100% - 10" y="25%" text-anchor="end" class="marker">II</text>
+      <text x="100%" y="50% + 10"text-anchor="end" class="marker">III</text>
+      <text x="100% - 10" y="75%" text-anchor="end" class="marker">IV</text>
+      <text x="75%" y="100% - 10"text-anchor="middle" class="marker">V</text>
+      <text x="50%" y="100% - 2"text-anchor="middle" class="marker">VI</text>
+      <text x="25%" y="100% - 10"text-anchor="middle" class="marker">VII</text>
+      <text x="10" y="75%"text-anchor="start" class="marker">VIII</text>
+      <text x="0" y="50% + 10"text-anchor="start" class="marker">IX</text>
+      <text x="10" y="25%"text-anchor="start" class="marker">X</text>
+      <text x="25%" y="30"text-anchor="middle" class="marker">XI</text>
+      <text x="50%" y="22"text-anchor="middle" class="marker">XII</text>
+  
+      <g id="mins" pointer-events="visible" transform="translate(50%,50%)">
+        <rect x="$-4" y="-110" width="8" height="110" fill="cyan" />
+      </g>
+      <g id="hours" pointer-events="visible" transform="translate(50%,50%)">
+        <rect x="$-6" y="-75" width="12" height="75" fill="cyan" />
+      </g>
+      <g id="secs" pointer-events="visible" transform="translate(50%,50%)">
+        <rect x="$-2" y="-120" width="4" height="120" fill="cyan" />
+      </g>
+      <circle cx="50%" cy="50%" r="10" fill="cyan" />
+    </svg>
+  </use>
+</svg>

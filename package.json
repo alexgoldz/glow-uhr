@@ -1,0 +1,29 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~5.0.0",
+    "@fitbit/sdk-cli": "^1.7.3",
+    "fitbit-sdk-types": "^6.0.0"
+  },
+  "fitbit": {
+    "appType": "clockface",
+    "appDisplayName": "first-clock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "first-clock"
+      }
+    },
+    "defaultLanguage": "en-US",
+    "appUUID": "a8de8199-aaa2-490b-b9be-5f42de70d17e"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}
